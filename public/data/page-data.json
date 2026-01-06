@@ -1,0 +1,113 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "eiman.kalsoom98@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:eiman.kalsoom98@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+44 7405 192573",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+447405192573"
+      },
+      {
+        "type": "website",
+        "label": "Derby, United Kingdom",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "#"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-img.png",
+        "link": "https://www.linkedin.com/in/eiman-kalsoom-618322204"
+      },
+      {
+        "platform": "orcid",
+        "icon": "/images/icon/ORCID-img.png",
+        "link": "https://orcid.org/0009-0005-7093-7661"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "MSc in Public Health - 2021-2023",
+        "description": "Shaheed Zulfiqar Ali Bhutto Institute of Science and Technology (SZABIST), Karachi, Pakistan.",
+        "certificateLink": "/docs/Masters Degree Attested (1).pdf"
+      },
+      {
+        "title": "BSc in Human Nutrition & Dietetics - 2016-2020",
+        "description": "Pir Mehr Ali Shah (PMAS) Arid Agriculture University, Rawalpindi, Pakistan.",
+        "certificateLink": "/docs/Bachelor Degree Attested.pdf"
+      },
+      {
+        "title": "Certifications",
+        "description": "IELTS Overall Band Score 7.0 (CEFR Level C1)",
+        "description2": "Listening: 7.0, Reading: 7.5, Writing: 7.0, Speaking: 7.0.",
+        "certificateLink": "/docs/IELTS Academic 2025.pdf",
+        "icon": "/images/icon/ielts-img.png"
+      }
+    ],
+    "skills": [
+      {
+        "name": "SPSS",
+        "icon": "/images/home/education-skill/SPSS-img.png",
+        "rating": 5
+      },
+      {
+        "name": "Excel",
+        "icon": "/images/home/education-skill/excel-img.png",
+        "rating": 5
+      },
+      {
+        "name": "Kobo Toolbox",
+        "icon": "/images/home/education-skill/kobotoolbox-img.png",
+        "rating": 5
+      },
+      {
+        "name": "Survey CTO",
+        "icon": "/images/home/education-skill/survey-img.png",
+        "rating": 4
+      },
+      {
+        "name": "Data Analysis",
+        "icon": "/images/home/education-skill/data-analysis-img.png",
+        "rating": 5
+      },
+      {
+        "name": "M&E",
+        "icon": "/images/home/education-skill/evaluation-img.png",
+        "rating": 4
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/eiman-kalsoom-618322204"
+      },
+      {
+        "title": "ORCID",
+        "href": "https://orcid.org/0009-0005-7093-7661"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "eiman.kalsoom98@gmail.com",
+        "link": "mailto:eiman.kalsoom98@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+44 7405 192573",
+        "link": "tel:+447405192573"
+      }
+    ]
+  }
+}
