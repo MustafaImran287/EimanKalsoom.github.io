@@ -10,17 +10,19 @@ const bricolageGrotesque = Bricolage_Grotesque({
   subsets: ["latin"],
 });
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export const metadata: Metadata = {
   title: "Eiman Kalsoom | Public Health Researcher",
   description: "Public Health and Nutrition Professional with experience supporting community-based projects in underserved settings.",
   icons: {
     icon: [
-      { url: "/images/logo/logo-img.png", sizes: "any", type: "image/png" },
-      { url: "/images/logo/logo-img.png", sizes: "32x32", type: "image/png" },
-      { url: "/images/logo/logo-img.png", sizes: "16x16", type: "image/png" },
+      { url: `${basePath}/images/logo/logo-img.png`, sizes: "any", type: "image/png" },
+      { url: `${basePath}/images/logo/logo-img.png`, sizes: "32x32", type: "image/png" },
+      { url: `${basePath}/images/logo/logo-img.png`, sizes: "16x16", type: "image/png" },
     ],
-    shortcut: "/images/logo/logo-img.png",
-    apple: "/images/logo/logo-img.png",
+    shortcut: `${basePath}/images/logo/logo-img.png`,
+    apple: `${basePath}/images/logo/logo-img.png`,
   },
 };
 
