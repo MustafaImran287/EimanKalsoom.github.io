@@ -26,22 +26,24 @@ const index = () => {
               Public Health and Nutrition Professional with experience supporting community-based projects in underserved settings. Skilled in data collection, analysis, and producing clear reports to inform decision-making and support impact reporting.
             </p>
           </div>
-          <Image
-            src={getImgPath("/images/home/banner/profile-img.png")}
-            alt="profile-img"
-            width={685}
-            height={650}
-            className="block lg:hidden rounded-lg object-cover"
-          />
+          <div className="block lg:hidden flex justify-center">
+            <Image
+              src={getImgPath("/images/home/banner/profile-img.png")}
+              alt="profile-img"
+              width={300}
+              height={300}
+              className="rounded-full object-cover w-[250px] h-[250px] md:w-[300px] md:h-[300px] border-6 border-[#4b346a]"
+            />
+          </div>
         </div>
       </div>
-      <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
+      <div className="absolute right-24 xl:right-32 2xl:right-40 top-1/2 -translate-y-1/2 hidden lg:flex items-center justify-center">
         <Image
           src={getImgPath("/images/home/banner/profile-img.png")}
           alt="profile-img"
-          width={685}
-          height={650}
-          className=" absolute right-0 top-0 z-1 rounded-lg object-cover"
+          width={400}
+          height={400}
+          className="rounded-full object-cover w-[300px] h-[300px] xl:w-[350px] xl:h-[350px] 2xl:w-[400px] 2xl:h-[400px] border-6 border-[#4b346a]"
         />
       </div>
     </section>
