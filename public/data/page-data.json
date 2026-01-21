@@ -44,18 +44,6 @@
         "title": "BSc in Human Nutrition & Dietetics - 2016-2020",
         "description": "Pir Mehr Ali Shah (PMAS) Arid Agriculture University, Rawalpindi, Pakistan.",
         "certificateLink": "/docs/Bachelor Degree Attested.pdf"
-      },
-      {
-        "title": "Certifications",
-        "description": "IELTS Overall Band Score 7.0 (CEFR Level C1)",
-        "description2": "Listening: 7.0, Reading: 7.5, Writing: 7.0, Speaking: 7.0.",
-        "certificateLink": "/docs/IELTS Academic 2025.pdf",
-        "icon": "/images/icon/ielts-img.png"
-      },
-      {
-        "title": "GDPR Certification",
-        "description": "Certified by CPD (Continuing Professional Development) - CPD Certifies the CPD Certification Service, AIM Group",
-        "certificateLink": "/docs/GDPR Certificate.pdf"
       }
     ],
     "skills": [
@@ -88,6 +76,22 @@
         "name": "M&E",
         "icon": "/images/home/education-skill/evaluation-img.png",
         "rating": 4
+      }
+    ]
+  },
+  "certificatesData": {
+    "certificates": [
+      {
+        "title": "English Proficiency Test",
+        "description": "IELTS Overall Band Score 7.0 (CEFR Level C1)",
+        "description2": "Listening: 7.0, Reading: 7.5, Writing: 7.0, Speaking: 7.0.",
+        "certificateLink": "/docs/IELTS Academic 2025.pdf",
+        "icon": "/images/icon/ielts-img.png"
+      },
+      {
+        "title": "GDPR Certification",
+        "description": "Certified by CPD (Continuing Professional Development) - CPD Certifies the CPD Certification Service, AIM Group",
+        "certificateLink": "/docs/GDPR Certificate.pdf"
       }
     ]
   },
