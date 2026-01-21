@@ -34,9 +34,37 @@ const AboutMe = () => {
               </div>
 
               <div className="w-full lg:max-w-2xl flex-1">
-                <p>
-                  Public Health and Nutrition Professional with experience supporting community-based projects in underserved settings. Background in Human Nutrition and Dietetics and Public Health, with hands-on experience collecting, managing and analyzing quantitative and qualitative data related to malnutrition, household food practices and service access. Skilled in producing clear reports to inform decision-making and support impact and donor reporting. Highly organized, confident with spreadsheets and digital tools, and motivated to tackle food insecurity and health inequalities through evidence-based, frontline work.
+                <h4 className="mb-4 text-black font-semibold">Executive Summary</h4>
+                <p className="text-justify">
+                  Public health Professional with an MSc in Public Health and hands-on experience leading monitoring, evaluation, and community-based health programmes across underserved settings. Experienced in managing field teams, coordinating multi-stakeholder projects, and delivering mixed-methods analysis to inform service improvement and evidence-based decision-making. Strong background in integrated primary healthcare, maternal and child health, and health inequalities, with demonstrated ability to implement data-driven evaluation processes, monitor performance, and translate complex data into actionable insights for programme optimization. Seeking a management-focused role in health service evaluation where academic rigor and operational impact intersect.
                 </p>
+
+                <div className="pt-8 xl:pt-10">
+                  <h4 className="mb-6 text-black font-semibold">Core Competencies</h4>
+                  <div className="flex flex-wrap gap-3">
+                    {[
+                      "Health Service Evaluation",
+                      "Programme & Project Coordination",
+                      "Mixed-Methods Analysis",
+                      "Community Health Systems",
+                      "Data-Driven Decision-Making",
+                      "Monitoring, Evaluation & Learning (MEL)",
+                      "Workforce Training & Supervision",
+                      "Stakeholder Engagement",
+                      "Health Inequalities",
+                      "Service Improvement",
+                      "Ethical & GDPR-Compliant Data Management"
+                    ].map((competency) => (
+                      <span
+                        key={competency}
+                        className="inline-block py-2.5 px-4 rounded-md text-sm md:text-base font-medium text-black border-2 border-primary"
+                        style={{ backgroundColor: 'rgba(226, 156, 187, 0.15)' }}
+                      >
+                        {competency}
+                      </span>
+                    ))}
+                  </div>
+                </div>
 
                 <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
                   {[

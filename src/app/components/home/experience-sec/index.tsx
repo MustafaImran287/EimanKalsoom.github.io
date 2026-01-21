@@ -7,7 +7,7 @@ const ExperienceSec = () => {
             title: "Monitoring and Evaluation Assistant",
             company: "Indus Hospital and Health Network (IHHN), Karachi, Pakistan",
             type: "Fulltime",
-            description: "Supported planning and coordination of a community health project in partnership with RekoDiq Mining Company, providing free quality healthcare services to remote populations. Maintained regular liaison with internal teams, partner organizations, and field staff for data reporting and communication. Conducted and synthesized qualitative and quantitative data to assess health outcomes and service delivery improvements. Contributed to the development of project reports, presentations, and briefing documents. Ensured timely data collection using digital tools (Kobo Toolbox, Survey CTO) and adherence to project timelines."
+            description: "Coordinated monitoring and evaluation for a large-scale community health programme delivering integrated primary healthcare to underserved populations. Line-managed and trained community engagement workers, overseeing session delivery, ethical data collection, and use of digital tools. Implemented routine performance monitoring and data quality checks to identify gaps and support corrective action. Led mixed-methods data collection and analysis to assess service utilisation, access barriers, and programme effectiveness across multiple sites. Contributed to audit-style reviews, analytical reports, and management briefings to inform data-driven decision-making and support ongoing service refinement based on routine monitoring, feedback, and performance review."
         },
         {
             year: "2023",
@@ -65,7 +65,7 @@ const ExperienceSec = () => {
                                 </div>
 
                                 <div className="pl-8 sm:pl-0">
-                                    <p className="leading-relaxed text-base">{exp.description}</p>
+                                    <p className="leading-relaxed text-base text-justify">{exp.description}</p>
                                 </div>
                             </div>
                         ))}

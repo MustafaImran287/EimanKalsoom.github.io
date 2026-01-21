@@ -22,7 +22,7 @@ const index = () => {
               </div>
               <h3>Public Health Researcher</h3>
             </div>
-            <p className="text-secondary font-normal max-w-md xl:max-w-xl">
+            <p className="text-secondary font-normal max-w-md xl:max-w-xl text-justify">
               Public Health and Nutrition Professional with experience supporting community-based projects in underserved settings. Skilled in data collection, analysis, and producing clear reports to inform decision-making and support impact reporting.
             </p>
           </div>

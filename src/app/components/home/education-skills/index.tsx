@@ -62,8 +62,8 @@ const EducationSkills = () => {
                           )}
                         </div>
                         <div className="font-normal">
-                          <p>{value?.description}</p>
-                          {value?.description2 && <p>{value?.description2}</p>}
+                          <p className="text-justify">{value?.description}</p>
+                          {value?.description2 && <p className="text-justify">{value?.description2}</p>}
                         </div>
                         {value?.certificateLink && (
                           <a

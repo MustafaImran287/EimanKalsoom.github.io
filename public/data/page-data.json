@@ -51,6 +51,11 @@
         "description2": "Listening: 7.0, Reading: 7.5, Writing: 7.0, Speaking: 7.0.",
         "certificateLink": "/docs/IELTS Academic 2025.pdf",
         "icon": "/images/icon/ielts-img.png"
+      },
+      {
+        "title": "GDPR Certification",
+        "description": "Certified by CPD (Continuing Professional Development) - CPD Certifies the CPD Certification Service, AIM Group",
+        "certificateLink": "/docs/GDPR Certificate.pdf"
       }
     ],
     "skills": [
